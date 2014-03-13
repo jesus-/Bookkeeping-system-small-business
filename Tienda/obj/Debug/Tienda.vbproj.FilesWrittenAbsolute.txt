@@ -1,0 +1,9 @@
+/Volumes/My Passport/programas utiles/tienda/Tienda/Tienda/obj/Debug/Tienda.dia.resources
+/Volumes/My Passport/programas utiles/tienda/Tienda/Tienda/obj/Debug/Tienda.Gastos.resources
+/Volumes/My Passport/programas utiles/tienda/Tienda/Tienda/obj/Debug/Tienda.Resumenes.resources
+/Volumes/My Passport/programas utiles/tienda/Tienda/Tienda/obj/Debug/Tienda.TipoGastos.resources
+/Volumes/My Passport/programas utiles/tienda/Tienda/Tienda/obj/Debug/Tienda.Resources.resources
+/Volumes/My Passport/programas utiles/tienda/Tienda/Tienda/obj/Debug/Tienda.PagosPendientes.resources
+/Volumes/My Passport/programas utiles/tienda/Tienda/Tienda/obj/Debug/Tienda.Principal.resources
+/Volumes/My Passport/programas utiles/tienda/Tienda/Tienda/obj/Debug/Tienda.proveedores.resources
+/Volumes/My Passport/programas utiles/tienda/Tienda/Tienda/obj/Debug/Tienda.exe

@@ -1,0 +1,57 @@
+Make a backup of the database:
+
+mysqldump -h localhost -u root -p1111 tienda > backup14-12-2011.sql
+
+Database pass: 1111
+
+
+create database tienda;
+
+Create Table proveedores
+(
+nombre varchar(30) NOT NULL,
+PRIMARY KEY (nombre)
+);
+
+Create Table tipoGastos
+(
+nombre varchar(30) NOT NULL,
+PRIMARY KEY (nombre)
+);
+
+
+Create Table pagos
+(
+id_pago int NOT NULL AUTO_INCREMENT,
+importe float(20) NOT NULL,
+proveedor varchar(30) NOT NULL REFERENCES proveedor(nombre),
+pendiente varchar(10),
+dia int(2) REFERENCES fecha(dia),
+mes int(2) REFERENCES fecha(mes),
+anio int(4) REFERENCES fecha(anio),
+PRIMARY KEY (id_pago)
+);
+
+
+Create Table gastos
+(
+id_gasto int NOT NULL AUTO_INCREMENT,
+importe float(20) NOT NULL,
+tipoGasto varchar(30) NOT NULL REFERENCES proveedor(nombre),
+dia int(2) REFERENCES fecha(dia),
+mes int(2) REFERENCES fecha(mes),
+anio int(4) REFERENCES fecha(anio),
+PRIMARY KEY (id_gasto)
+);
+
+Create Table fechas
+(
+dia int(2),
+mes int(2),
+anio int(4),
+venta int,
+caja int,
+cambio int,
+PRIMARY KEY (dia,mes,anio)
+
+);
